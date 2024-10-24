@@ -1,9 +1,10 @@
 body {
     color: white;
-    background:black;
+    background: black;
     margin: 0px;
-}  
-
+    font-family: "Chakra Petch", sans-serif;
+      
+}
 
 
 header {
@@ -13,3 +14,27 @@ header {
     color: rgb(38, 211, 209);
 }
 
+section {
+    background: rgb(39, 161, 192);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Gostei de como ficou, então vou deixar assim. :D */
+
+.p1 {
+    margin-right: 5%;
+    font-size: 30px;
+}
+
+img {
+    height: 200;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
